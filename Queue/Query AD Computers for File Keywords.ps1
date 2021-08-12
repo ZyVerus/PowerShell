@@ -1,13 +1,13 @@
 ﻿#--------------------------------------------------#
 #                                                  #
-#                                                  #
 #  Name: Query AD Computer for File Keywords       #
-#  Created By: Hugo M. Baez Urquiola               #
+#  Created By: ZyVerus               #
 #  Latest Revision: 2019 Feb 13                    #
 #  Version: 1.0                                    #
 #                                                  #
-#  ...                                             #
-#                                                  #
+#  This powershell script searches all AD          #
+#  computers for a specified file if the machine   #
+#  is online.                                      #
 #                                                  #
 #--------------------------------------------------#
 
@@ -33,9 +33,9 @@ ForEach ($SystemName in $ADComputerList){
            #Include each Filename to search for.
            #Ensure to include wildcards * to expand the search parameters to not be limited by exact file names.
            $FileNames = @(
-                "*N1-PO2 WEEMS.pdf*"
-                #"*SPMAGTF*"
-                #"*Report*"
+                "*Filename.pdf*"
+                #"*Filename_2*"
+                #"*Filename_3*"
                 )
 
            #Create a hidden directory on the target machine to output the results file to.

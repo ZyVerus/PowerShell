@@ -1,8 +1,7 @@
 ﻿#--------------------------------------------------#
 #                                                  #
-#                                                  #
 #  Name: Get ADComputer Get Software List Script   #
-#  Created By: Hugo M. Baez Urquiola               #
+#  Created By: ZyVerus                             #
 #  Latest Revision: 2018 July 3                    #
 #  Version: 1.3                                    #
 #                                                  #
@@ -11,7 +10,6 @@
 #  installed on the machines, exports it to a CSV  #
 #  file, and copies the data to the machine        #
 #  running this script                             #
-#                                                  #
 #                                                  #
 #--------------------------------------------------#
 

@@ -1,18 +1,20 @@
 ﻿#-----------------------------------------------#
 #                                               #
-#                                               #
 #   Name: Fix Firefox Deleted Profiles          #
-#   Created By: Hugo M. Baez Urquiola           #
+#   Created By: ZyVerus                         #
 #   Latest Revision Date: 2018 June 14          #
 #                                               #
 #   This script recreates the Firefox profile   #
 #   after being deleted.                        #
 #                                               #
+#   The .ps1 file "Clear All user Profile       #
+#   Browser Data.ps1" utilizes this script      #
+#   file.                                       #
 #                                               #
 #-----------------------------------------------#
 
 #Change the location of the CSV File that contains the list of all the systems included below
-$TribalCSV = Import-Csv C:\Users\hugo.baezurquiola\Desktop\TribalFusionAffectedWorkstations.csv | ForEach-Object {
+$TribalCSV = Import-Csv C:\Users\zyverus\Desktop\TribalFusionAffectedWorkstations.csv | ForEach-Object {
 
     $Systemname = $_.SystemName
 
