@@ -1,0 +1,1 @@
+﻿Get-ChildItem -Path "E:\515" -Recurse -Force | Select-String -Pattern 'Military Construction' -AllMatches | group path | select name | export-csv "E:\515\C5\Cyber Security\Personal\Baez Urquiola\Investigation\Military Construction Parse.csv"
