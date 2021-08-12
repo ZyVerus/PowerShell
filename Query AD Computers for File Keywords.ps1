@@ -15,7 +15,7 @@
 $ExportDirectory = "C:\Jupiter Sweep Query Reports"
 
 #Get a List of Active Directory Computers
-$ADComputerList = Get-ADComputer -Filter * -SearchBase "OU=Computers,OU=515,OU=ME User Catalog,DC=ME,DC=USMC,DC=MIL" -Properties * | Select -ExpandProperty Name
+$ADComputerList = Get-ADComputer -Filter * -SearchBase "OU=Computers,OU=515,OU=User Catalog,DC=AB,DC=CDEF,DC=COM" -Properties * | Select -ExpandProperty Name
 #$ADComputerList = Get-ADComputer -Filter "Name -like '*ME-SPM-N-CDKT*'" -Properties * | Select -ExpandProperty Name
 
 ForEach ($SystemName in $ADComputerList){
