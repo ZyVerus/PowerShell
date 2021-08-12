@@ -1,6 +1,5 @@
 ﻿#-----------------------------------------------#
 #                                               #
-#                                               #
 #   Name: Clear All User Profile Browser Data   #
 #   Created By: ZyVerus                         #
 #   Latest Revision Date: 2018 June 14          #
@@ -14,7 +13,6 @@
 #   Update: Added the fix for Firefox           #
 #   to recreate the profile after being         #
 #   deleted.                                    #
-#                                               #
 #                                               #
 #-----------------------------------------------#
 
