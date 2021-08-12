@@ -19,7 +19,7 @@
 #-----------------------------------------------#
 
 #Change the location of the CSV File that contains the list of all the systems included below
-$TribalCSV = Import-Csv C:\Users\hugo.baezurquiola\Desktop\TribalFusionAffectedWorkstationsGCE5.csv | ForEach-Object {
+$TribalCSV = Import-Csv C:\Users\zyverus\Desktop\TribalFusionAffectedWorkstationsGCE5.csv | ForEach-Object {
 
     $Systemname = $_.SystemName
 
